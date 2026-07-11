@@ -10,7 +10,6 @@ function isPalindrome(str) {
   const reversedStr = reversingStr.join("")
 
   if(str === reversedStr)return true;
-  
   // else if(str.includess("  ") === reversedStr.includes("  ")) return true;
   else return false;
 
